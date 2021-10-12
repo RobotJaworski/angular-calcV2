@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+  width: 30%;
+}
+h1 {
+  text-align: center;
+  color: azure;
+  padding: 8px;
+  margin: 0;
+}
+h5 {
+  padding: 12px;
+  color: azure;
+  font-style: italic;
+}
+.header {
+  background-color: #0275d8;
+}

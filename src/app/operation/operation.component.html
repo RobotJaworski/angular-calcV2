@@ -1,0 +1,13 @@
+<div class="btn-group" role="group" aria-label="operations">
+  <button (click)="onAdd()" type="button" class="btn btn-primary">+</button>
+  <button (click)="onSubtract()" type="button" class="btn btn-primary">
+    -
+  </button>
+  <button (click)="onMultiply()" type="button" class="btn btn-primary">
+    x
+  </button>
+  <button (click)="onDivide()" type="button" class="btn btn-primary">÷</button>
+</div>
+<div>
+  <app-result [result]="computed"> </app-result>
+</div>
